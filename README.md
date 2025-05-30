@@ -16,7 +16,6 @@ Dapat dilihat bahwa terdapat perbedaan pada ketiga gambar tersebut. Gambar perta
 
 ### 2. Notice that there are two versions of `kubectl get` invocation during this tutorial section. The first does not have any option, while the latter has `-n` option with value set to `kube-system`.What is the purpose of the `-n` option and why did the output not list the pods/services that you explicitly created?
 
-
 Berdasarkan referensi dari [Namespace in Kubernetes
 documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/), penggunaan `-n` berfungsi untuk menspesifikasikan namespace yang akan dijadikan target. 
 
@@ -60,7 +59,7 @@ Dapat dilihat bahwa pod-pod baru sedang dibuat untuk menggatikan pod yang dihapu
 * Service berhasil di akses
 ![img](images/tampilan-petclinic.png)
 
-### Prepare different manifest files for executing Recreate deployment strategy.
+### 3. Prepare different manifest files for executing Recreate deployment strategy.
 impor file yml yang baru saja dibuat untuk executing recreate deployment
 ![alt text](images/import-recreate-yml.png)
 
